@@ -1,0 +1,205 @@
+.body{
+}
+.card1 {
+    position: relative;
+    top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    background: white;
+    width: 90%;
+    height: 750px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+   }
+   .head{
+    background-color: rgb(214, 221, 230);
+    width: 100%;
+    height: 100%;
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    background: white;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+   }
+   .titel{
+    position: relative;
+    right: 400px;
+    bottom:30px
+   }
+   .first{
+    position: relative;
+    right: 350px;
+
+   }
+   .last{
+    position: relative;
+    right: 0px;
+    bottom:20px;
+
+   }
+   .phone{
+    position: relative;
+    left: 300px;
+    bottom:50px;
+
+   }
+   .email{
+    
+        position: relative;
+        right: 370px;
+    
+    }
+    .date{
+        position: relative;
+    right: 13px;
+    bottom:25px;
+    }
+    .gender{
+        position: relative;
+        left: 280px;
+        bottom:50px;
+    
+       }
+
+       .Adress{
+        position: relative;
+        right: 80px;
+    
+    }
+    .country{
+        top: 70px;
+        position: relative;
+        right: 360px;
+    
+    }
+    .state{
+        position: relative;
+        left: 70px;
+        top:40px
+    
+    }
+    .skills{
+        
+    position: relative;
+    top:110px;
+    right: 160px;
+    }
+    .ch1{
+        position: relative;
+        top:150px;
+        right: 180px;
+    }
+    .ch2{
+        position: relative;
+        top:150px;
+        right: 20px;
+    }
+    .ch3{
+        position: relative;
+        top:150px;
+        left: 100px;
+    }
+    .ch4{
+        position: relative;
+        top:150px;
+        left: 250px;
+    }
+    .ch5{
+        position: relative;
+        top:200px;
+        right: 550px;
+    }
+    .ch6{
+        position: relative;
+        top:200px;
+        right: 460px;
+    }
+    .btn7{
+        position: relative;
+        right: 460px;
+        width: 80px;
+    }
+    .inp1{
+      position: relative;
+      right: 430px;
+      top:50px
+    }
+    .inp2{
+        position: relative;
+        right: 80px;
+        top:20px
+      }
+    .inp4{
+        position: relative;
+        right: 410px;
+        top:50px
+      }
+      .inp3{
+        position: relative;
+        left: 250px;
+        bottom:10px
+      }
+      .inp5{
+        position: relative;
+        right: 110px;
+        top:20px
+      }
+      .inp6{
+        position: relative;
+        left: 230px;
+        bottom:10px
+      }
+      .inp7{
+        position: relative;
+        right: 420px;
+        top:110px
+      }
+      .inp8{
+        position: relative;
+        left: 30px;
+        top:80px
+    }
+    .c1{
+        position: relative;
+        top:150px;
+        right: 230px;
+    }
+    .c2{
+        position: relative;
+        top:150px;
+        right: 90px;
+    }
+    .c3{
+        position: relative;
+        top:150px;
+        right: 60px;
+    }
+    .c4{
+        position: relative;
+        top:150px;
+        left: 150px;
+    }
+    .c5{
+        position: relative;
+        top:200px;
+        right: 680px;
+    }
+    .c6{
+        position: relative;
+        top:200px;
+        right: 570px;
+    }
+    .ad{
+        position: relative;
+        right: 130px;
+        top:70px;
+        width: 70%;
+            
+          } 
