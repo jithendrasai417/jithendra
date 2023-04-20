@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smooth Scroll Example</title>
+	<style>
+		/* Set scroll behavior to smooth */
+		html {
+			scroll-behavior: smooth;
+		}
+		
+		/* Style for the "scroll to top" and "scroll to bottom" links */
+		.scroll-link {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			padding: 10px;
+			background-color: #333;
+			color: #fff;
+			text-decoration: none;
+			display: none;
+		}
+		
+		.scroll-link:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+<body>
+	<div style="height: 1500px; background-color: #ea1212d3;">
+		<h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+        
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non maiores doloremque sunt vero. Nisi magnam, ullam, qui obcaecati modi corrupti quia provident ratione consequatur fugiat, impedit minus doloribus quidem! Illo.</h1>
+		<p>This is a long page with lots of content. Scroll down to see more.</p>
+		<!-- "Scroll to top" link -->
+		<a href="#top" class="scroll-link">Click to go to top of page</a>
+		<!-- "Scroll to bottom" link -->
+		<a href="#bottom" class="scroll-link">Click to go to bottom of page</a>
+	</div>
+	<!-- Anchor point for "Scroll to top" link -->
+	<a name="top"></a>
+	<!-- Anchor point for "Scroll to bottom" link -->
+	<a name="bottom"></a>
+	<script>
+		// Show/hide scroll links based on scroll position
+		window.addEventListener('scroll', function() {
+			var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+			var scrollHeight = document.documentElement.scrollHeight;
+			var clientHeight = document.documentElement.clientHeight;
+			var scrollLinkTop = document.querySelector('.scroll-link[href="#top"]');
+			var scrollLinkBottom = document.querySelector('.scroll-link[href="#bottom"]');
+			
+			if (scrollTop > clientHeight /12) {
+				scrollLinkTop.style.display = 'block';
+			} else {
+				scrollLinkTop.style.display = 'none';
+			}
+			
+			if (scrollHeight - scrollTop > clientHeight * 1.5) {
+				scrollLinkBottom.style.display = 'block';
+			} else {
+				scrollLinkBottom.style.display = 'none';
+			}
+		});
+	</script>
+</body>
+</html>

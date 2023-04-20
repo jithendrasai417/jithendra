@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visibility and Display Example</title>
+	<style>
+		/* Set visibility of elements */
+		.visible {
+			visibility: visible;
+		}
+		
+		.hidden {
+			visibility: hidden;
+		}
+		
+		.collapsed {
+			visibility: collapse;
+		}
+		
+		/* Set display of elements */
+		.block {
+			display: block;
+		}
+		
+		.inline {
+			display: inline;
+		}
+		
+		.none {
+			display: none;
+		}
+		
+		.contents {
+			display: contents;
+		}
+		
+		.list-item {
+			display: list-item;
+		}
+	</style>
+</head>
+<body>
+	<h2>Visibility Examples:</h2>
+	<p class="visible">This paragraph is visible.</p>
+	<p class="hidden">This paragraph is hidden.</p>
+	<table>
+		<tr>
+			<td class="collapsed">This table row is collapsed.</td>
+		</tr>
+	</table>
+	
+	<h2>Display Examples:</h2>
+	<div class="block">
+		<p>This is a block-level element. It takes up the full width of its container and starts on a new line.</p>
+	</div>
+	<span class="inline">This is an inline-level element. It takes up only the space it needs and remains on the same line.</span>
+	<div class="none">
+		<p>This element has display set to "none" and is not visible on the page.</p>
+	</div>
+	<div class="contents">
+		<p>This element has display set to "contents" and its children are displayed as direct children of its parent.</p>
+		<span>Child element 1</span>
+		<span>Child element 2</span>
+	</div>
+	<ul>
+		<li class="list-item">This is a list item with display set to "list-item".</li>
+		<li>Another list item</li>
+	</ul>
+</body>
+</html>

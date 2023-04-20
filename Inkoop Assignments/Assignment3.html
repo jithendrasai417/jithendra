@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Odd Number Input</title>
+	<style>
+		input[type=number]::-webkit-inner-spin-button, 
+		input[type=number]::-webkit-outer-spin-button { 
+			-webkit-appearance: none; 
+			margin: 0; 
+		}
+		input[type=number] {
+			-moz-appearance:textfield;
+			appearance:textfield;
+			margin: 10px;
+			padding: 10px;
+			border: 1px solid black;
+			border-radius: 5px;
+			width: 200px;
+			font-size: 16px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<label for="inputNumber">Enter an odd number:</label>
+	<input type="number" id="inputNumber" placeholder="Odd Number">
+	<p id="resultMsg" style="color: blue; display: none;"></p>
+	<button onclick="checkNumber()">Submit</button>
+
+	<script>
+		function checkNumber() {
+			let inputNumber = parseInt(document.getElementById("inputNumber").value);
+			if (inputNumber % 2 === 0) {
+				alert("Please enter an odd number!");
+				return false;
+			} else {
+				let resultMsg = "The next 3 odd numbers are: " + (inputNumber + 2) + ", " + (inputNumber + 4) + ", " + (inputNumber + 6);
+				document.getElementById("resultMsg").innerHTML = resultMsg;
+				document.getElementById("resultMsg").style.display = "block";
+				return true;
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Image with CSS</title>
+  <style>
+    /* Set background color for header */
+    .header {
+      background-color: hwb(34 7% 10% / 0.89);
+      color: #fff;
+      padding: 20px;
+    }
+
+    /* Set background color for main content */
+    .main-content {
+      background-color: #fff;
+      padding: 20px;
+    }
+
+    /* Set background color for footer */
+    .footer {
+      background-color: rgb(19, 139, 0);
+      color: #fff;
+      padding: 20px;
+    }
+
+    /* Set background image and properties */
+    body {
+      background-image: url('background.jpg'); /* URL of the background image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-position: center top; /* Center the image at the top of the page */
+      background-attachment: fixed; /* Fix the image so it does not scroll with the page */
+      background-size: cover; /* Cover the entire background with the image */
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Header</h1>
+    <!-- Header content goes here -->
+  </div>
+  <div class="main-content">
+    <h2>Main Content</h2>
+    <!-- Main content goes here -->
+  </div>
+  <div class="footer">
+    <h3>Footer</h3>
+    <!-- Footer content goes here -->
+  </div>
+</body>
+</html>

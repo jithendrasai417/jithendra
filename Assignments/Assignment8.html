@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<button onclick="sortFruits()">Sort fruits</button>
+
+<ul id="fruitList">
+  <li>bpple</li>
+  <li>zanana</li>
+  <li>Orange</li>
+  <li>hango</li>
+  <li>Pineapple</li>
+</ul>
+
+<script>
+  // JavaScript code
+  function sortFruits() {
+    const fruitList = document.getElementById('fruitList');
+    const fruits = Array.from(fruitList.children).map(li => li.textContent);
+    fruits.sort((a,b) => b.localeCompare(a));
+    fruitList.innerHTML = fruits.map(fruit => `<li>${fruit}</li>`).join('');
+  }
+</script>
+<!-- <button onclick="sortFruits()">Sort fruits</button>
+
+<ul id="fruitList">
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>erange</li>
+  <li>dango</li>
+  <li>cineapple</li>
+</ul>
+
+<script>
+  // JavaScript code
+  function sortFruits() {
+    const fruitList = document.getElementById('fruitList');
+    const fruits = Array.from(fruitList.children).map(li => li.textContent);
+    fruits.sort((a, b) => a.localeCompare(b));
+    fruitList.innerHTML = fruits.map(fruit => `<li>${fruit}</li>`).join('');
+  } -->
+</script>
+
+
+</body>
+</html>

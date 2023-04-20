@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Basic Web Page</title>
+  <style>
+    /* Styling for the headings */
+    h1 {
+      color: blue;
+    }
+    h2 {
+      color: green;
+    }
+    h3 {
+      color: red;
+    }
+
+    /* Styling for the paragraph */
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    /* Styling for the anchor links */
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Styling for the list items */
+    ul li::before {
+      content: "•";
+      margin-right: 5px;
+    }
+
+    /* Styling for the label */
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    /* Styling for the blockquote */
+    blockquote {
+      border-left: 2px solid #ccc;
+      padding-left: 10px;
+      margin: 10px 0;
+    }
+
+    /* Styling for the image */
+    img {
+      max-width: 100%;
+    }
+
+    /* Styling for the division */
+    div {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f8f9fa;
+    }
+
+    /* Styling for the span */
+    span {
+      color: purple;
+      font-style: italic;
+    }
+
+    /* Styling for hover effect on division */
+    div:hover {
+      background-color: #e9ecef;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="section1">Section 1</h1>
+  <p>This is the content of section 1.</p>
+  <h2 id="section2">Section 2</h2>
+  <p>This is the content of section 2.</p>
+  <h3 id="section3">Section 3</h3>
+  <p>This is the content of section 3.</p>
+  
+  <!-- Internal Links -->
+  <ul>
+    <li><a href="#section1">Go to Section 1</a></li>
+    <li><a href="#section2">Go to Section 2</a></li>
+    <li><a href="#section3">Go to Section 3</a></li>
+  </ul>
+
+  <label for="inputField">This is a label</label>
+
+  <blockquote>This is a blockquote</blockquote>
+  <hr>
+  <img src="example.jpg" alt="Example Image">
+  <div>This is a division with hover effect</div>
+  <span>This is a span with italic and purple text</span>
+</body>
+</html>
