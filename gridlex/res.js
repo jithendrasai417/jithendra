@@ -62,3 +62,32 @@ $(document).ready(function() {
       $('#popup').fadeOut();
     });
   });
+  var counter1 = 0;
+  var progressBar1 = document.querySelectorAll(".progress-bar")[0];
+  var counterText1 = document.querySelectorAll(".counter")[0];
+
+  var intervalId1 = setInterval(function() {
+    counter1++;
+    progressBar1.style.width = counter1 + "%";
+    progressBar1.setAttribute("aria-valuenow", counter1);
+    counterText1.innerText = counter1;
+
+    if (counter1 === 100) {
+       counter1 = 0
+    }
+  }, 300);
+
+  var counter2 = 0;
+  var progressBar2 = document.querySelectorAll(".progress-bar")[1];
+  var counterText2 = document.querySelectorAll(".counter")[1];
+
+  var intervalId2 = setInterval(function() {
+    counter2++;
+    progressBar2.style.width = counter2 + "%";
+    progressBar2.setAttribute("aria-valuenow", counter2);
+    counterText2.innerText = counter2;
+
+    if (counter2 === 100) {
+      counter2=0;
+    }
+  }, 300);
