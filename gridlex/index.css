@@ -294,7 +294,7 @@
   display: none;
   margin-top: 20px;
   padding: 10px;
-  background-color: #f8f8f8;
+  background-color: #070404;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -416,7 +416,7 @@
   }
 }
 
-@media (min-width: 1440px){
+@media (max-width: 1440px){
   .footer #collapseBtn {
   position: relative;
   left: 300px;
